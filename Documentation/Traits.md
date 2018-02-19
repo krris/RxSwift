@@ -116,7 +116,7 @@ getRepo("ReactiveX/RxSwift")
     .disposed(by: disposeBag)
 ```
 
-The subscription provides a `SingleEvent` enumeration which could be either `.success` containing a element of the Single's type, or `.error`. No further events would be emitted beyond the first one.
+The subscription provides a `SingleEvent` enumeration which could be either `.success` containing an element of the Single's type, or `.error`. No further events would be emitted beyond the first one.
 
 It's also possible using `.asSingle()` on a raw Observable sequence to transform it into a Single.
 
